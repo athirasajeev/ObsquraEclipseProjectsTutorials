@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-28T06:31:59 IST" name="Suite" finished-at="2022-06-28T06:31:59 IST" duration-ms="140">
+    <groups>
+      <group name="Reg">
+        <method signature="HomeInsuranceTest.WebLogin()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" name="WebLogin" class="sureFirePackage.HomeInsuranceTest"/>
+        <method signature="HomeInsuranceTest.WebLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" name="WebLogout" class="sureFirePackage.HomeInsuranceTest"/>
+      </group> <!-- Reg -->
+      <group name="Dog">
+        <method signature="HomeInsuranceTest.MobileLogIn()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" name="MobileLogIn" class="sureFirePackage.HomeInsuranceTest"/>
+        <method signature="HomeInsuranceTest.MobileLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" name="MobileLogout" class="sureFirePackage.HomeInsuranceTest"/>
+      </group> <!-- Dog -->
+    </groups>
+    <test started-at="2022-06-28T06:31:59 IST" name="Test" finished-at="2022-06-28T06:31:59 IST" duration-ms="140">
+      <class name="sureFirePackage.HomeInsuranceTest">
+        <test-method signature="MobileLogIn()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" started-at="2022-06-28T06:31:59 IST" name="MobileLogIn" finished-at="2022-06-28T06:31:59 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogIn -->
+        <test-method signature="MobileLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" started-at="2022-06-28T06:31:59 IST" name="MobileLogout" finished-at="2022-06-28T06:31:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogout -->
+        <test-method signature="WebLogin()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" started-at="2022-06-28T06:31:59 IST" name="WebLogin" finished-at="2022-06-28T06:31:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@17046283]" started-at="2022-06-28T06:31:59 IST" name="WebLogout" finished-at="2022-06-28T06:31:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogout -->
+      </class> <!-- sureFirePackage.HomeInsuranceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

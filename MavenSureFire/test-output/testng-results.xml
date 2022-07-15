@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-01T10:03:57 IST" name="Suite" finished-at="2022-07-01T10:03:57 IST" duration-ms="221">
+    <groups>
+      <group name="smk">
+        <method signature="DogInsuranceTest.MobileLogIn()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" name="MobileLogIn" class="sureFirePackage.DogInsuranceTest"/>
+        <method signature="DogInsuranceTest.MobileLogout()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" name="MobileLogout" class="sureFirePackage.DogInsuranceTest"/>
+      </group> <!-- smk -->
+      <group name="Reg">
+        <method signature="DogInsuranceTest.WebLogin()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" name="WebLogin" class="sureFirePackage.DogInsuranceTest"/>
+        <method signature="DogInsuranceTest.WebLogout()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" name="WebLogout" class="sureFirePackage.DogInsuranceTest"/>
+        <method signature="HomeInsuranceTest.WebLogin()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" name="WebLogin" class="sureFirePackage.HomeInsuranceTest"/>
+        <method signature="HomeInsuranceTest.WebLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" name="WebLogout" class="sureFirePackage.HomeInsuranceTest"/>
+      </group> <!-- Reg -->
+      <group name="Dog">
+        <method signature="HomeInsuranceTest.MobileLogIn()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" name="MobileLogIn" class="sureFirePackage.HomeInsuranceTest"/>
+        <method signature="HomeInsuranceTest.MobileLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" name="MobileLogout" class="sureFirePackage.HomeInsuranceTest"/>
+      </group> <!-- Dog -->
+    </groups>
+    <test started-at="2022-07-01T10:03:57 IST" name="Test" finished-at="2022-07-01T10:03:57 IST" duration-ms="221">
+      <class name="sureFirePackage.DogInsuranceTest">
+        <test-method is-config="true" signature="BeforeSuitMethod()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="BeforeSuitMethod" finished-at="2022-07-01T10:03:57 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuitMethod -->
+        <test-method is-config="true" signature="DBReset()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="DBReset" finished-at="2022-07-01T10:03:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBReset -->
+        <test-method is-config="true" signature="BeforeclassMethod()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="BeforeclassMethod" finished-at="2022-07-01T10:03:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeclassMethod -->
+        <test-method is-config="true" signature="BeforeMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="BeforeMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMeth -->
+        <test-method signature="MobileLogIn()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="MobileLogIn" finished-at="2022-07-01T10:03:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogIn -->
+        <test-method is-config="true" signature="AfterMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="AfterMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMeth -->
+        <test-method signature="MobileLogout()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="MobileLogout" finished-at="2022-07-01T10:03:57 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogout -->
+        <test-method is-config="true" signature="BeforeMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="BeforeMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMeth -->
+        <test-method is-config="true" signature="AfterMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="AfterMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMeth -->
+        <test-method is-config="true" signature="BeforeMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="BeforeMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMeth -->
+        <test-method signature="WebLogin()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="WebLogin" finished-at="2022-07-01T10:03:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method is-config="true" signature="AfterMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="AfterMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMeth -->
+        <test-method is-config="true" signature="BeforeMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="BeforeMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMeth -->
+        <test-method signature="WebLogout()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="WebLogout" finished-at="2022-07-01T10:03:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogout -->
+        <test-method is-config="true" signature="AfterMeth()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="AfterMeth" finished-at="2022-07-01T10:03:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMeth -->
+        <test-method is-config="true" signature="AfterclassMethod()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="AfterclassMethod" finished-at="2022-07-01T10:03:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterclassMethod -->
+        <test-method is-config="true" signature="ReportGeneration()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="ReportGeneration" finished-at="2022-07-01T10:03:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportGeneration -->
+        <test-method is-config="true" signature="AfterSuitMethod()[pri:0, instance:sureFirePackage.DogInsuranceTest@a38c7fe]" started-at="2022-07-01T10:03:57 IST" name="AfterSuitMethod" finished-at="2022-07-01T10:03:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuitMethod -->
+      </class> <!-- sureFirePackage.DogInsuranceTest -->
+      <class name="sureFirePackage.HomeInsuranceTest">
+        <test-method signature="MobileLogIn()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" started-at="2022-07-01T10:03:57 IST" name="MobileLogIn" finished-at="2022-07-01T10:03:57 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogIn -->
+        <test-method signature="MobileLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" started-at="2022-07-01T10:03:57 IST" name="MobileLogout" finished-at="2022-07-01T10:03:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogout -->
+        <test-method signature="WebLogin()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" started-at="2022-07-01T10:03:57 IST" name="WebLogin" finished-at="2022-07-01T10:03:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogout()[pri:0, instance:sureFirePackage.HomeInsuranceTest@4dbb42b7]" started-at="2022-07-01T10:03:57 IST" name="WebLogout" finished-at="2022-07-01T10:03:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogout -->
+      </class> <!-- sureFirePackage.HomeInsuranceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
