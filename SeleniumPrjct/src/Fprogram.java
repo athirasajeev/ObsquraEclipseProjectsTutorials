@@ -14,11 +14,11 @@ public class Fprogram {
 		//System.out.println("Hello");
 		//Web Page is Opened in Google Chrome
 		//Old way to initiate browsers
-		//System.setProperty("webdriver.chrome.driver","E:\\drivers\\chromedriver.exe");
-		//ChromeDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","E:\\drivers\\chromedriver_win32\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
 		//New way to initiate browsers
-		WebDriver driver=WebDriverManager.edgedriver().create();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//WebDriver driver=WebDriverManager.edgedriver().create();
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		//Web Page is Opened in MS Edge
 		//System.setProperty("webdriver.edge.driver","E:\\drivers\\msedgedriver.exe");
         //EdgeDriver driver=new EdgeDriver();	

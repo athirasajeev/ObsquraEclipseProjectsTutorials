@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AccessModifiers/src"/>
+	<classpathentry kind="src" path="Assignments/src"/>
+	<classpathentry kind="src" path="JDBC_Connection/src"/>
+	<classpathentry kind="src" path="MavenSureFire/src/test/java"/>
+	<classpathentry kind="src" path="MyMaven/src/main/java"/>
+	<classpathentry kind="src" path="OOPS_Concepts/src"/>
+	<classpathentry kind="src" path="PageObgectModelPGM/src/main/java"/>
+	<classpathentry kind="src" path="PageObgectModelPGM/src/test/java"/>
+	<classpathentry kind="src" path="SeleniumBasics"/>
+	<classpathentry kind="src" path="SeleniumPrjct/src"/>
+	<classpathentry kind="src" path="TestNGTutorial/src"/>
+	<classpathentry kind="output" path="AccessModifiers/bin"/>
+</classpath>

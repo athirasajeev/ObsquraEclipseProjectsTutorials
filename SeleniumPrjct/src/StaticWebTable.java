@@ -11,7 +11,7 @@ public class StaticWebTable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		WebDriver driver=WebDriverManager.chromedriver().create();
+		final WebDriver driver=WebDriverManager.edgedriver().create();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://selenium.obsqurazone.com/table-pagination.php");

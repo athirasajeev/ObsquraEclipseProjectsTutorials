@@ -13,6 +13,7 @@ public class BookingSite {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver=WebDriverManager.chromedriver().create();
+		System.out.println(driver);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.booking.com/index.en-gb.html?aid=304142&label=gen173nr-1DCAEoggI46AdIM1gEaGyIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4Auef-JIGwAIB0gIkMDA2NzU4MzUtYjZiOC00MWVkLWFiYjYtODg3MTQ0NjE0OWI52AIE4AIB&sid=bb5137322a9d15da86d74a546c48f17a&keep_landing=1&sb_price_type=total&");		

@@ -13,7 +13,8 @@ public class Travelo_Automate {
 		// TODO Auto-generated method stub
 		WebDriver driver = WebDriverManager.chromedriver().create();
 		driver.manage().window().maximize();
-		driver.get("https://www.travolook.in/");//TO GET ADDRESS
+		
+		driver.get("https://www.travolook.in/");//TO GET ADDRESS2
 
 		driver.findElement(By.id("flying_from_N")).click();//CLICK FROM PLACE
 		driver.findElement(By.id("flying_from")).sendKeys("tri"); 

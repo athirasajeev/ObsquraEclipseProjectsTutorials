@@ -12,7 +12,7 @@ public class DynamicDropDown {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		WebDriver driver=WebDriverManager.chromedriver().create();
+		WebDriver driver=WebDriverManager.firefoxdriver().create();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://selenium.obsqurazone.com/jquery-select.php");
